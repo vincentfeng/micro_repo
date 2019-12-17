@@ -2,3 +2,5 @@
 /.idea/
 /micro_spark/target/
 /micro_spark/spark.iml
+/micro_muserver/muserver.iml
+/micro_muserver/target/classes/
