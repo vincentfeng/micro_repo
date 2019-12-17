@@ -1,0 +1,4 @@
+/logs/
+/.idea/
+/micro_spark/target/
+/micro_spark/spark.iml
