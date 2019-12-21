@@ -6,11 +6,15 @@ import java.util.Properties;
 
 import com.google.gson.Gson;
 import io.muserver.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class MuServerHelloWork {
 
-    public static void main(String[] args) {
+    private final static Logger logger = LoggerFactory.getLogger(MuServerHelloWork.class);
 
+    public static void main(String[] args) {
+        logger.info("Server is starting");
         String fileName = "application-local.properties";
         Gson gson = new Gson();
         final Config config = loadConfig(fileName);
@@ -23,7 +27,7 @@ public class MuServerHelloWork {
                 })
                 .withHttpPort(config.getPort())
                 .start();
-        System.out.println("Started server at " + server.uri());
+        logger.info("Started server at {}" , server.uri());
     }
 
     public static HealthEntity loadHealthEntity(Config config){
