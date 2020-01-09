@@ -1,4 +1,4 @@
-package micro.repo.muserver;
+package micro.repo.muserver.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,7 +14,6 @@ public class PropertiesUtils {
             throw e;
         }
     }
-
 
     public static Properties load(InputStream is) throws IOException {
         Properties properties = new Properties();

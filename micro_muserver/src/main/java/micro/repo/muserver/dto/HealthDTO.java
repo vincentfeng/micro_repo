@@ -1,9 +1,9 @@
-package micro.repo.muserver;
+package micro.repo.muserver.dto;
 
 import lombok.Data;
 
 @Data
-public class HealthEntity {
+public class HealthDTO {
 
     private String version;
 
