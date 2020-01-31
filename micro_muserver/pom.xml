@@ -27,12 +27,12 @@
         <dependency>
             <groupId>io.muserver</groupId>
             <artifactId>mu-server</artifactId>
-            <version>RELEASE</version>
+            <version>0.47.3</version>
         </dependency>
         <dependency>
             <groupId>io.muserver</groupId>
             <artifactId>murp</artifactId>
-            <version>RELEASE</version>
+            <version>0.5.5</version>
         </dependency>
         <dependency>
             <groupId>io.muserver</groupId>
