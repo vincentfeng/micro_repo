@@ -6,3 +6,6 @@
 /micro_muserver/target/classes/
 /micro_springboot/target/
 /micro_springboot/springboot.iml
+/micro_wildfly/target/
+/micro_jetty/target/
+/micro_springboot_jetty/target/
