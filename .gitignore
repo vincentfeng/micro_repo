@@ -11,7 +11,7 @@
 /micro_wildfly/
 /micro_springboot_jetty/
 /swagger_spark/swagger-spark.iml
-/swagger_spark/target
+/swagger_spark/target/
 /swagger_spark_02/swagger-spark-02.iml
-/swagger_spark_02/target
+/swagger_spark_02/target/
 
