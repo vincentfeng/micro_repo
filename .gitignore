@@ -14,4 +14,5 @@
 /swagger_spark/target/
 /swagger_spark_02/swagger-spark-02.iml
 /swagger_spark_02/target/
-
+/micro_jetty/target/
+/micro_springboot_jetty/target/
